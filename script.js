@@ -1416,5 +1416,36 @@ console.log(capitals('CodEWaRs')); */
   console.log(multiTable(5));
   console.log(multiTable(1)); */
 
+  let months = {
+    January: 1,
+    February: 2,
+    March: 3,
+    April: 4,
+    May: 5,
+    June: 6,
+    Jule: 7,
+    August: 8,
+    September: 9,
+    October: 10,
+    November: 11,
+    December: 12,
+}
+function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+    let number = +enteredCode === +correctCode;
+    let month = months[currentDate.split(',')[0].split(' ')[0]] <= months[expirationDate.split(',')[0].split(' ')[0]];
+    let day = +currentDate.split(',')[0].split(' ')[1] <= +expirationDate.split(',')[0].split(' ')[1];
+    let year = +currentDate.split(',')[1] <= +expirationDate.split(',')[1];
+
+    if (!number) return false;
+        if (!year) return false;
+            if (!month) return false;
+                if (months[currentDate.split(',')[0].split(' ')[0]] == months[expirationDate.split(',')[0].split(' ')[0]]) {
+                    if (!day) return false;
+                }
+    return true;
+}
+
+console.log(checkCoupon('123','123','September 5, 2014','October 1, 2014'));
+console.log(checkCoupon('123a','123','September 5, 2014','October 1, 2014'));
 
 
