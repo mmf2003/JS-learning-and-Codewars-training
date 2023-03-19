@@ -1416,7 +1416,9 @@ console.log(capitals('CodEWaRs')); */
   console.log(multiTable(5));
   console.log(multiTable(1)); */
 
-  let months = {
+////////////////////////////////////////////////////////////////////////////////
+
+/* let months = {
     January: 1,
     February: 2,
     March: 3,
@@ -1446,6 +1448,14 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
 }
 
 console.log(checkCoupon('123','123','September 5, 2014','October 1, 2014'));
-console.log(checkCoupon('123a','123','September 5, 2014','October 1, 2014'));
+console.log(checkCoupon('123a','123','September 5, 2014','October 1, 2014')); */
 
+///////////////////////////////////////////////////////////////////////////////////
 
+function disemvowel(str) {
+    return str.split('').filter((a) => !('euioaEUIOA'.includes(a))).join('');
+}
+
+  console.log(disemvowel("This website is for losers LOL!"));
+
+  ///////////////////////////////////////////////////////////////////////////////////
