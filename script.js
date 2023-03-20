@@ -1483,3 +1483,11 @@ console.log(incrementString("foo"));
 console.log(incrementString("fo99obar99")); */
 
 ///////////////////////////////////////////////////////////////////////////////////
+
+/* function distinct(a) {
+    return a.filter((item,ind) => a.indexOf(item) == ind);
+}
+
+console.log(distinct([1,1,2])); */
+
+///////////////////////////////////////////////////////////////////////////////////
