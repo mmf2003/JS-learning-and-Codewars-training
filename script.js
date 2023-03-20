@@ -1491,3 +1491,10 @@ console.log(incrementString("fo99obar99")); */
 console.log(distinct([1,1,2])); */
 
 ///////////////////////////////////////////////////////////////////////////////////
+
+function twoSort(s) {
+    return s.sort()[0].split('').join('***');
+}
+
+console.log(twoSort(["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]));
+
