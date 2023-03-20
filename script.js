@@ -1460,7 +1460,7 @@ console.log(checkCoupon('123a','123','September 5, 2014','October 1, 2014')); */
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-function incrementString (strng) {
+/* function incrementString (strng) {
     let numberLength = length(strng);
     console.log(numberLength);
     if (numberLength == 0) return strng + 1;
@@ -1480,6 +1480,6 @@ function length(str) {
 
 console.log(incrementString('foobar000'));
 console.log(incrementString("foo"));
-console.log(incrementString("fo99obar99"));
+console.log(incrementString("fo99obar99")); */
 
 ///////////////////////////////////////////////////////////////////////////////////
