@@ -1452,10 +1452,34 @@ console.log(checkCoupon('123a','123','September 5, 2014','October 1, 2014')); */
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-function disemvowel(str) {
+/* function disemvowel(str) {
     return str.split('').filter((a) => !('euioaEUIOA'.includes(a))).join('');
 }
 
-  console.log(disemvowel("This website is for losers LOL!"));
+  console.log(disemvowel("This website is for losers LOL!")); */
 
-  ///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+function incrementString (strng) {
+    let numberLength = length(strng);
+    console.log(numberLength);
+    if (numberLength == 0) return strng + 1;
+    let numberNew = String(Number(strng.slice(-numberLength)) + 1).padStart(numberLength, '0');
+    return strng.slice(0, -numberLength) + numberNew;   
+}
+
+function length(str) {
+    let numberLength = str.split('').reverse();
+    let count = 0, i = 0;
+    while (!(isNaN(numberLength[i]))) {
+        count++;
+        i++;
+    }
+    return count;
+}
+
+console.log(incrementString('foobar000'));
+console.log(incrementString("foo"));
+console.log(incrementString("fo99obar99"));
+
+///////////////////////////////////////////////////////////////////////////////////
