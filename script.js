@@ -1500,4 +1500,10 @@ console.log(twoSort(["bitcoin", "take", "over", "the", "world", "maybe", "who", 
 
 ///////////////////////////////////////////////////////////////////////////////////
 
+/* function position(letter){
+    return `Position of alphabet: ${letter.charCodeAt() - 96}`;
+}
+console.log(position('a'));
+ */
+///////////////////////////////////////////////////////////////////////////////////
 
