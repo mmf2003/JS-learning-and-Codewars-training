@@ -1517,4 +1517,21 @@ console.log(toBinary(5)); */
 
 ///////////////////////////////////////////////////////////////////////////////////
 
+/* function wave(str){
+    let res =[];
+    for (let i =0; i< str.length; i++) {
+        let a =str.toLowerCase().split('');
+        if (a[i] == ' ') continue;
+        a[i] = a[i].toUpperCase();
+        res.push(a.join(''));
+    }
+    return res;
+}
+
+console.log(wave('hello'));
+console.log(wave('codewars'));
+console.log(wave('Two words'));
+console.log(wave(' Gap ')); */
+
+///////////////////////////////////////////////////////////////////////////////////
 
