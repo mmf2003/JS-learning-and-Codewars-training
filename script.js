@@ -1552,3 +1552,16 @@ console.log(checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"])); */
 
 ///////////////////////////////////////////////////////////////////////////////////
 
+/* function count (string) {  
+    var obj = {};
+    string = string.split('').forEach(function(x){
+      obj[x] = obj[x] ? obj[x] + 1 : 1;
+    });
+    return obj;
+}
+
+console.log(count(''));
+console.log(count('a'));
+console.log(count('abc')); */
+
+///////////////////////////////////////////////////////////////////////////////////
