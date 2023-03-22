@@ -1565,3 +1565,30 @@ console.log(count('a'));
 console.log(count('abc')); */
 
 ///////////////////////////////////////////////////////////////////////////////////
+
+/* var encryptThis = function(text) {
+let str = '';
+let result = text.split(' ');
+for (let i = 0; i < text.split(' ').length; i++) {
+    
+    let res = result[i].split('').map((a,ind) => (ind == 0 ? a = a.charCodeAt() : a));
+    let item2 = res[1];
+    let itemEnd = res[res.length - 1];
+    res[1] = itemEnd;
+    res[res.length - 1] = item2;
+    
+    str += res.join(''); 
+    if (text.split(' ').length != 1) {
+        if (i == text.split(' ').length - 1) break;
+        str += ' ';
+    }
+}
+return str;
+};
+
+console.log(encryptThis('hello world'));
+console.log(encryptThis('Hello'));
+console.log(encryptThis('A wise old owl lived in an oak')); */
+
+///////////////////////////////////////////////////////////////////////////////////
+
