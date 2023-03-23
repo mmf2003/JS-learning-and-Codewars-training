@@ -1592,3 +1592,20 @@ console.log(encryptThis('A wise old owl lived in an oak')); */
 
 ///////////////////////////////////////////////////////////////////////////////////
 
+/* function duplicateCount(text){
+    let txtLow = text.toLowerCase();
+    let res =  (txtLow.toLowerCase().split('').filter((item,ind) => !(txtLow.indexOf(item) == ind)));
+    return res.filter((item,ind) => (res.indexOf(item) == ind)).length;
+}
+
+
+console.log(duplicateCount(''));
+console.log(duplicateCount('abcde'));
+console.log(duplicateCount('aabbcde'));
+console.log(duplicateCount('aabBcde'));
+console.log(duplicateCount('Indivisibility'));
+console.log(duplicateCount('Indivisibilities')); */
+
+///////////////////////////////////////////////////////////////////////////////////
+
+
