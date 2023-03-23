@@ -1608,4 +1608,16 @@ console.log(duplicateCount('Indivisibilities')); */
 
 ///////////////////////////////////////////////////////////////////////////////////
 
+/* function findNb(m) {
+    let sum = 0;
+    for (let i = 1; i <= Infinity; i++) {
+    sum += Math.pow(i,3);
+        if (sum == m) return i;
+        if (sum > m) return -1;
+    }
+}
 
+console.log(findNb(24723578342962)); // -1
+console.log(findNb(135440716410000)); // 4824 */
+
+///////////////////////////////////////////////////////////////////////////////////
