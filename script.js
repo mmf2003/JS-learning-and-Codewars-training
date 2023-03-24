@@ -1621,3 +1621,16 @@ console.log(findNb(24723578342962)); // -1
 console.log(findNb(135440716410000)); // 4824 */
 
 ///////////////////////////////////////////////////////////////////////////////////
+
+/* function meeting(s) {
+    let arr = s.split(';');
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] ='(' + arr[i].toUpperCase().split(':').reverse().join(', ') + ')';
+    }
+    return arr.sort((a,b) => a.localeCompare(b)).join('');
+}
+
+console.log(meeting("Alexis:Wahl;John:Bell;Victoria:Schwarz;Abba:Dorny;Grace:Meta;Ann:Arno;Madison:STAN;Alex:Cornwell;Lewis:Kern;Megan:Stan;Alex:Korn")); */
+
+///////////////////////////////////////////////////////////////////////////////////
+
