@@ -1634,3 +1634,33 @@ console.log(meeting("Alexis:Wahl;John:Bell;Victoria:Schwarz;Abba:Dorny;Grace:Met
 
 ///////////////////////////////////////////////////////////////////////////////////
 
+/* function productFib(prod){
+    let n = 300; 
+    let fibonacci = [0, 1]; 
+    for (let i = 2; i < n; i ++) {
+        fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
+    }
+    for (let i = 0; i < fibonacci.length; i++) {
+        if (fibonacci[i] * fibonacci[i + 1] == prod) return [fibonacci[i], fibonacci[i + 1], true];
+        else if (fibonacci[i] * fibonacci[i + 1] > prod) return [fibonacci[i], fibonacci[i + 1], false];
+    }
+}
+
+console.log(productFib(4895));
+console.log(productFib(5895));
+console.log(productFib(74049690));
+console.log(productFib(84049690));
+console.log(productFib(193864606));
+console.log(productFib(447577));
+console.log(productFib(602070));
+
+//another way
+
+function productFib(prod){
+    let [a, b] = [0, 1];
+    while(a * b < prod) [a, b] = [b, a + b];
+    return [a, b, a * b === prod];
+} */
+
+///////////////////////////////////////////////////////////////////////////////////
+
