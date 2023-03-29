@@ -1664,3 +1664,34 @@ function productFib(prod){
 
 ///////////////////////////////////////////////////////////////////////////////////
 
+/* function isSortedAndHow(array) {
+    let arr1 = array.slice(0).sort((a,b) => a - b);
+    let arr2 = array.slice(0).sort((a,b) => b - a);
+    let ascending, descending;
+    for (let i = 0; i< array.length; i++) {
+        if (arr1[i] != array[i]) ascending = false;
+        else ascending = true;
+        if (arr2[i] != array[i]) descending = false;
+        else descending = true;
+        if (ascending == false && descending == false) return 'no';
+    }
+    return ascending ? "yes, ascending" : "yes, descending";
+}
+
+console.log(isSortedAndHow([1,2]));
+console.log(isSortedAndHow([15,8,2,-1]));
+console.log(isSortedAndHow([4,2,30]));
+console.log(isSortedAndHow([15,8,2,-1]));
+
+//another way
+
+const isSortedAndHow = array => {
+    let ascending = array.filter((e, i, a) => e > a[i+1]).length == 0
+    let descending = array.filter((e, i, a) => e < a[i+1]).length == 0
+    
+    return ascending ? 'yes, ascending' : descending ? 'yes, descending' : 'no'
+}
+ */
+///////////////////////////////////////////////////////////////////////////////////
+
+
